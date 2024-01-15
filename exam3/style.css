@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 a;
+}
+
+.header-links ul li a {
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    /* 155.556% */
+}
+
+.header-btn button {
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    /* 155.556% */
+    border-radius: 24px;
+    border: 2px solid #FFF;
+    width: 153px;
+    height: 48px;
+}
+
+.bir-text {
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100px;
+    /* 156.25% */
+
+}
+
+.bir-p {
+    width: 730px;
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    /* 155.556% */
+    padding-top: 70px;
+}
+
+.ikki-text {
+    color: #FFF;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    /* 100% */
+}
+
+.card-h {
+    padding-top: 23px;
+    color: #79C8C7;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    /* 155.556% */
+}
+
+.card-p {
+    color: #FFF;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 25px;
+    /* 166.667% */
+}
+
+.uch-text {
+    color: #FFF;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    /* 100% */
+}
+
+.tort-text {
+    color: #012F34;
+    font-family: Livvic;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    /* 100% */
+}
+
+.htgh {
+    display: flex;
+}
+
+.tort-btn button {
+    color: #012F34;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    /* 155.556% */
+    border-radius: 24px;
+    border: 2px solid #012F34;
+    width: 153px;
+    height: 48px;
+}
+
+.card {
+    display: flex;
+}
+
+@media screen and (min-width:576px) and (max-width:1024px) {
+    .bir-text {
+        text-align: center;
+    }
+    .bir-p {
+        width: 457px;
+    }
+
+    .htgh {
+        display: block;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .card {
+        display: block;
+        padding-top: 46px;
+        padding-left: 185px;
+    }
+
+    .bir-p {
+        width: 327px;
+    }
+}
